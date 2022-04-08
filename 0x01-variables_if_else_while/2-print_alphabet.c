@@ -6,13 +6,11 @@
  * Return:Always 0 (Success)
  */int main(void)
 {
-	char alphabet;
+	char alpha;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++);
-	putchar(alphabet);
+	for (alpha = 'a'; alpha <= 'z'; alpha++);
+	putchar(alpha);
 
-       putchar('\n');
-       return (0);
+	putchar('\n');
+	return (0);
 }
-
-
